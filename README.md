@@ -6,3 +6,7 @@ Copy over the materials from the instructor folder to the classroom/Homework/Hom
 
 # Step 02
 Practice git add, git commit, git push
+
+# Step 3
+changed location of index.html
+deleted the homework instructions in repo
