@@ -1,0 +1,160 @@
+/*Order
+General Design
+Styling Header
+Styling Main Section
+Styling Side Bar
+Styling Footer*/
+
+/*========================================Genereal Design========================================*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*Styling of Links*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*Styling of Paragraphs*/
+p {
+  font-size: 16px;
+}
+
+/*Page Background color*/
+body {
+  background-color: #d9dcd6;
+}
+
+/*========================================Header Design========================================*/
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header h1 .seo {
+  color: #d9dcd6;
+}
+
+/*adjust div to nav*/
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+/*adjust div to nav*/
+.header nav ul {
+  list-style-type: none;
+}
+/*adjust div to nav*/
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/*========================================Main Section Design========================================*/
+/*Big Picture on Homepage*/
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*Styling Service Boxes in Main Section*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/*Styling Pictures of Service Boxes in Main Section*/
+/* .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  */
+article img {
+  max-height: 200px;
+}
+
+/*Picture Alignment in Service Boxes*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/*Header from Service Boxes in Main Section*/
+/* .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2  */
+article h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/*========================================Side Bar Design========================================*/
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/*Styling Cards in Side Bar*/
+.benefit-lead, .benefit-brand, .benefit-cost {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/*Styling Header of Cards in Side Bar*/
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*Styling Icons from Cards in Side Bar*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/*========================================Footer Design========================================*/
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
